@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88ef4d92-bd0f-4b43-ad6a-324239ca6968" name="Default Changelist" comment="" />
+    <list default="true" id="88ef4d92-bd0f-4b43-ad6a-324239ca6968" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Game.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Class_training/Enemy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Class_training/Game.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Class_training/Knight.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Class_training/Randomizer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Class_training/SaveToTXT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Game/Enemy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Game/Game.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Game/Knight.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Game/Randomizer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Game/SaveToTXT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Randomizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SaveToTXT.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="140" />
     <option name="y" value="16" />
     <option name="width" value="1400" />
@@ -123,11 +144,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -165,21 +187,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18176973" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18336888" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
