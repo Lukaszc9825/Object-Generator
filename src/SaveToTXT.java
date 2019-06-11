@@ -1,36 +1,42 @@
-import java.io.File;
-import java.io.PrintWriter;
-import java.io.FileNotFoundException;
+import java.io.*;
 
 public class SaveToTXT {
 
-private PrintWriter save;
+private FileWriter filewriter;
 private File file;
 
     public SaveToTXT (){}
 
-    public void makeFile (String name) throws FileNotFoundException
+    public void makeFile (String name)
     {
-        File file = new File(name + ".txt");
-        PrintWriter save = new PrintWriter(file);
-        this.file = file;
-        this.save = save;
+        try {
+            File file = new File(name + ".txt");
+            FileWriter filewriter = new FileWriter(file);
+            this.file = file;
+            this.filewriter = filewriter;
+        }catch (IOException ex) {
+            System.out.println("File access problem");
+        }
     }
 
-    public void saveLane (File file,String lane) throws FileNotFoundException
+    public void saveLane (String lane)
     {
-        save.println(lane);
-        save.println();
+        try {
+            filewriter.write(lane);
+            filewriter.write("\n");
+        }catch (IOException ex) {
+            System.out.println("File access problem");
+        }
     }
 
     public File getFile()
     {
-        return file;
+            return file;
     }
 
-    public PrintWriter getSave()
+    public FileWriter getFilewriter()
     {
-        return save;
+           return filewriter;
     }
 }
 
