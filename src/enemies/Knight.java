@@ -1,4 +1,6 @@
-public class Knight extends Enemy{
+package enemies;
+
+public class Knight extends Enemy {
 
     private String ability;
     private String[] abilities = {"Rage","Immortality","High Attack Speed"};
@@ -8,6 +10,8 @@ public class Knight extends Enemy{
 
     }
     // liczby od 1 do a odpowaidaja umiejetnosciom w kolejnosci (w tej f-kcji indeksujemy od 1)
+
+    @Override
     public void setAbility(int a)
     {
         if (a<=abilities.length)
@@ -16,7 +20,8 @@ public class Knight extends Enemy{
         }
         else
             {
-            this.ability = null;
+                System.out.println("Wrong parameter of ability, please give value from 1 to "+ abilities.length);
+            setAbility(a);
             }
     }
 

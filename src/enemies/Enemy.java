@@ -1,39 +1,41 @@
-public class Enemy {
+package enemies;
+
+abstract public class Enemy {
 
     private int hp, armor,attack;
     private String name;
 
-    public Enemy()
-    {
+    abstract public String getAbility();
 
-    }
+    abstract public void setAbility(int a);
+
     // HP
-    protected void setHp(int hp)
+    public void setHp(int hp)
     {
         this.hp=hp;
     }
 
-    protected int getHp()
+    public int getHp()
     {
         return hp;
     }
     // ARMOR
-    protected void setArmor(int armor)
+    public void setArmor(int armor)
     {
         this.armor=armor;
     }
 
-    protected int getArmor()
+    public int getArmor()
     {
         return armor;
     }
     // ATTACK
-    protected void setAttack(int attack)
+    public void setAttack(int attack)
     {
         this.attack=attack;
     }
 
-    protected int getAttack()
+    public int getAttack()
     {
         return attack;
     }

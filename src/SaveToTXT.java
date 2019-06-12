@@ -7,19 +7,19 @@ private File file;
 
     public SaveToTXT (){}
 
-    public void makeFile (String name)
+    public void makeFile (String name) throws Exception
     {
         try {
             File file = new File(name + ".txt");
             FileWriter filewriter = new FileWriter(file);
             this.file = file;
             this.filewriter = filewriter;
-        }catch (IOException ex) {
+        }catch (Exception ex) {
             System.out.println("File access problem");
         }
     }
 
-    public void saveLane (String lane)
+    public void saveLane (String lane) throws  Exception
     {
         try {
             filewriter.write(lane);
